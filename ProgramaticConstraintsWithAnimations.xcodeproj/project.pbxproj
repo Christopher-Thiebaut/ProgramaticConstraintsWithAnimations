@@ -54,14 +54,22 @@
 		B337816E203DDE080098384E /* ProgramaticConstraintsWithAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				B337816F203DDE080098384E /* AppDelegate.swift */,
+				B3378181203DE0770098384E /* Resources */,
 				B3378171203DDE080098384E /* ViewController.swift */,
 				B3378173203DDE080098384E /* Main.storyboard */,
+			);
+			path = ProgramaticConstraintsWithAnimations;
+			sourceTree = "<group>";
+		};
+		B3378181203DE0770098384E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B337816F203DDE080098384E /* AppDelegate.swift */,
 				B3378176203DDE080098384E /* Assets.xcassets */,
 				B3378178203DDE080098384E /* LaunchScreen.storyboard */,
 				B337817B203DDE080098384E /* Info.plist */,
 			);
-			path = ProgramaticConstraintsWithAnimations;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM5E6M7XJW;
-				INFOPLIST_FILE = ProgramaticConstraintsWithAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProgramaticConstraintsWithAnimations/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherthiebaut.ProgramaticConstraintsWithAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM5E6M7XJW;
-				INFOPLIST_FILE = ProgramaticConstraintsWithAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProgramaticConstraintsWithAnimations/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherthiebaut.ProgramaticConstraintsWithAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
